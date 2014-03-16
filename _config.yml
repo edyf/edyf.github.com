@@ -1,3 +1,4 @@
 name: Edy's Blog
-markdown: redcarpet
+markdown: rdiscount
 pygments: true
+

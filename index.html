@@ -1,15 +1,13 @@
 ---
-layout: default
-title: Hello World Blog
+layout: home 
+title: Edy's Blog
 ---
 
-<section id="main" class="group">
+<div>
   <h2>Posts</h2>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul> 
-</section> 
+  {% include posts.html %}
+</div>
+<div id="sup-about">
+  <h2 id="about">About</h2>
+  <p>I'm on <a href="https://github.com/edyf" target="_blank">GitHub</a>.</p>
+</div>
