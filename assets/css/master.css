@@ -65,7 +65,7 @@ p {
 }
 
 header {
-  border-bottom: 1px dashed #000;
+  border-bottom: 1px solid #666;
   margin: 0;
   padding: 10px 0;
 }
@@ -74,7 +74,7 @@ header .logo {
   float: left;
   font-size: 2em;
   margin: 0;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 
 header .logo a:link,
@@ -190,7 +190,7 @@ section {
 }
 
 footer {
-  border-top: 1px dashed #000;
+  border-top: 1px solid #666;
   margin-top: 30px;
   text-align: center;
 }
@@ -232,7 +232,7 @@ footer p {
 }
 
 .figure {
-  margin: 1.75em 0;  
+  margin: 1.75em 0;
 }
 
 .first {
