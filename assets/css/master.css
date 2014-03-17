@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, div, p, ul, li, section, aside {
 
 body {
   color: rgba(0,0,0, 0.75);
-  font-size: 100%;
+  font-size: 95%;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1;
   margin: 0;
@@ -65,9 +65,11 @@ p {
 }
 
 header {
-  border-bottom: 1px solid #666;
+  border-bottom: 1px solid #b4b8bb;
+  /*border: 1px solid #666;*/
   margin: 0;
   padding: 10px 0;
+  background: #e1e7ea; /*#a9a7a5;*/
 }
 
 header .logo {
@@ -125,7 +127,7 @@ section {
 }
 
 #main h2 {
-  font-size: 1.75em;
+  font-size: 1.5em;
   margin-bottom: 1em;
 }
 
@@ -190,14 +192,17 @@ section {
 }
 
 footer {
-  border-top: 1px solid #666;
+  border-top: 1px solid #b4b8bb;
+  border-bottom: 1px solid #b4b8bb;
   margin-top: 30px;
   text-align: center;
+  background: #e1e7ea;
 }
 
 footer p {
   font-size: 0.80em;
-  padding-top: 15px;
+  padding-top: 10px;
+  padding-bottom: 5px;
 }
 
 .hero {
