@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to Jekyll! Copy"
 date:   2014-03-16 22:13:03
 categories: jekyll update
 ---
@@ -19,9 +19,9 @@ print_hi('Tom')
 {% endhighlight %}
 
 
-- top
-- bottom
-- middle
+1. top
+2. bottom
+3. middle
 
 Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
 
