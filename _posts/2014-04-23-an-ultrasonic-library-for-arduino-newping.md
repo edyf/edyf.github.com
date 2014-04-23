@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: A Ultrasonic library for Arduino (NewPing)
+title: An Ultrasonic library for Arduino (NewPing)
 ---
 
 ###Download library
