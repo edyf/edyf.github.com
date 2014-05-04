@@ -41,14 +41,14 @@ code {
 }
 
 pre {
-  margin: 2em 1.5em;
+  margin: 1em 1em;
 }
 
 pre code {
   display: block;
-  line-height: 1.75;
+  line-height: 1.5;
   overflow: auto;
-  padding: 15px;
+  padding: 8px;
 }
 
 #container {
