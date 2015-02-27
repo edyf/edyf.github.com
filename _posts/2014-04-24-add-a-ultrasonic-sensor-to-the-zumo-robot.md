@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Add a Ultrasonic Sensor to the Zumo Robot
 ---
 

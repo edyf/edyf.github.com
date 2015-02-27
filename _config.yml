@@ -1,4 +1,4 @@
 name: Edy's Blog
 markdown: redcarpet
 pygments: true
-
+encoding: utf-8
