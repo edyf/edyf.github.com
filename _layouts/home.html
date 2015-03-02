@@ -5,26 +5,25 @@
     <div id="container">
       <header class="group">
         <div class="header-inner">
-          <h1 class="logo"><a href="/">Edy's Blog</a></h1>
+          <!-- <h1 class="logo"><a href="/">Edy's Blog</a></h1> -->
           {% include nav.html %}
         </div>
       </header>
       <div id="content">
         <div class="hero">
           <img src="/assets/images/lake.jpg" alt="Lake" />
-          <div class="overlay">
-            <h3>This site is under construction!</h3>
+          <div class="title">
+            <h3>Edy's Blog</h3>
           </div>
+          <!-- <div class="overlay">
+            <h3>This site is under construction!</h3>
+          </div> -->
         </div>
         <section id="main" class="group">
           {{ content }}
         </section>
       </div>
-      <footer>
-        <div class="footer-inner">
-          <p>&copy; 2014 &middot; Edy Furger - Powered by <a href="http://jekyllrb.com" target="_blank">Jekyll</a></p>
-        </div>
-      </footer>
+      {% include footer.html %}
     </div>
   </body>
 </html>

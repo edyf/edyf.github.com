@@ -66,9 +66,9 @@ p {
 
 header {
   /*border-top: 1px solid #AAAAAA;*/
-  border-bottom: 1px solid #AAAAAA;
+  /*border-bottom: 1px solid #AAAAAA;*/
   margin: 0;
-  padding: 20px 0;
+  padding: 10px 0;
   /*background: #FDFDFD; /*#a9a7a5;*/
 }
 
@@ -89,12 +89,12 @@ header .logo a:visited {
 .main-nav {
   float: right;
   list-style-type: none;
-  margin-top: 7px;
+  margin-top: 2px;
 }
 
 .main-nav a:link,
 .main-nav a:visited {
-  background-color: #333;
+  background-color: #595959;
   color: #FFF;
   padding: 3px 6px;
 }
@@ -172,17 +172,18 @@ section {
 
 footer {
   border-top: 1px solid #AAAAAA;
-  margin-top: 30px;
+  margin-top: 20px;
   text-align: center;
 }
 
 footer p {
   font-size: 0.80em;
-  padding-top: 5px;
+  padding-top: 0px;
 }
 
 .hero {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  margin-top: -15px;
   position: relative;
 }
 
@@ -193,7 +194,7 @@ footer p {
 }
 
 .hero .overlay {
-  background-color: #4B4B4B;
+  background-color: #595959;
   background-color: rgba(75,75,75, 0.65);
   color: red;
   font-size: 0.85em;
@@ -203,8 +204,23 @@ footer p {
   padding: 20px 20px 20px 20px;
   position: absolute;
   right: -50px;
-  top: 30px;
+  top: 190px;
   width: 245px;
+}
+
+.hero .title {
+  background-color: #595959;
+  background-color: rgba(75,75,75, 0.85);
+  color: #00ff7f;
+  font-size: 2em;
+  text-align: center;
+  line-height: 1.5;
+  margin-right: -20px;
+  padding: 20px 20px 20px 20px;
+  position: absolute;
+  left: -80px;
+  top: 10px;
+  width: 230px;
 }
 
 #container img {
