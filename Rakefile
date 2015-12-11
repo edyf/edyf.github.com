@@ -17,6 +17,6 @@ task :np do
       file.puts "---"
     end
   end
-  `open -a LightTable #{path}`
+  `open _posts`
   exit 1
 end
