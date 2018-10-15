@@ -1,3 +1,5 @@
 name: Edy's Blog
 highlighter: rouge
 encoding: utf-8
+
+theme: jekyll-theme-minimal
