@@ -4,7 +4,7 @@ published: true
 title: Arduino intervalometer and lightning detector
 ---
 
-###Material:
+### Material:
 
 * Arduino board (UNO or similar, in this tutorial I use a homemade Arduino compatible board)
 * 2x16 LCD display
